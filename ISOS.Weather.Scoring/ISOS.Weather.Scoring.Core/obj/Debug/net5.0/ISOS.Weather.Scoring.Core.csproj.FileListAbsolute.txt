@@ -1,0 +1,12 @@
+D:\project\personal\ISOS.Weather.Scoring\ISOS.Weather.Scoring\ISOS.Weather.Scoring.Core\bin\Debug\net5.0\ISOS.Weather.Scoring.Core.deps.json
+D:\project\personal\ISOS.Weather.Scoring\ISOS.Weather.Scoring\ISOS.Weather.Scoring.Core\bin\Debug\net5.0\ISOS.Weather.Scoring.Core.dll
+D:\project\personal\ISOS.Weather.Scoring\ISOS.Weather.Scoring\ISOS.Weather.Scoring.Core\bin\Debug\net5.0\ref\ISOS.Weather.Scoring.Core.dll
+D:\project\personal\ISOS.Weather.Scoring\ISOS.Weather.Scoring\ISOS.Weather.Scoring.Core\bin\Debug\net5.0\ISOS.Weather.Scoring.Core.pdb
+D:\project\personal\ISOS.Weather.Scoring\ISOS.Weather.Scoring\ISOS.Weather.Scoring.Core\obj\Debug\net5.0\ISOS.Weather.Scoring.Core.csprojAssemblyReference.cache
+D:\project\personal\ISOS.Weather.Scoring\ISOS.Weather.Scoring\ISOS.Weather.Scoring.Core\obj\Debug\net5.0\ISOS.Weather.Scoring.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\personal\ISOS.Weather.Scoring\ISOS.Weather.Scoring\ISOS.Weather.Scoring.Core\obj\Debug\net5.0\ISOS.Weather.Scoring.Core.AssemblyInfoInputs.cache
+D:\project\personal\ISOS.Weather.Scoring\ISOS.Weather.Scoring\ISOS.Weather.Scoring.Core\obj\Debug\net5.0\ISOS.Weather.Scoring.Core.AssemblyInfo.cs
+D:\project\personal\ISOS.Weather.Scoring\ISOS.Weather.Scoring\ISOS.Weather.Scoring.Core\obj\Debug\net5.0\ISOS.Weather.Scoring.Core.csproj.CoreCompileInputs.cache
+D:\project\personal\ISOS.Weather.Scoring\ISOS.Weather.Scoring\ISOS.Weather.Scoring.Core\obj\Debug\net5.0\ISOS.Weather.Scoring.Core.dll
+D:\project\personal\ISOS.Weather.Scoring\ISOS.Weather.Scoring\ISOS.Weather.Scoring.Core\obj\Debug\net5.0\ref\ISOS.Weather.Scoring.Core.dll
+D:\project\personal\ISOS.Weather.Scoring\ISOS.Weather.Scoring\ISOS.Weather.Scoring.Core\obj\Debug\net5.0\ISOS.Weather.Scoring.Core.pdb
