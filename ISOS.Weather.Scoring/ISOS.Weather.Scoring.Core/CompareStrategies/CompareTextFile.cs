@@ -25,6 +25,12 @@ namespace ISOS.Weather.Scoring.Core.CompareStrategies
             compareMessage = new StringBuilder();
             compareMessage.Append($"当前对比文件{CompareFilePath}");
 
+            if (!File.Exists(SourceFilePath) || !File.Exists(CompareFilePath))
+            {
+                compareMessage.Append("文件不存在");
+                return false;
+            }
+
             var sourceFileStream = new FileStream(SourceFilePath, FileMode.Open, FileAccess.Read);
             var sourceStreamReader = new StreamReader(sourceFileStream, Encoding.Default);
             var compareFileStream = new FileStream(CompareFilePath, FileMode.Open, FileAccess.Read);

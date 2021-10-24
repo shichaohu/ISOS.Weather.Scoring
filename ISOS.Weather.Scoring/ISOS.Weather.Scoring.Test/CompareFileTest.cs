@@ -20,5 +20,18 @@ namespace ISOS.Weather.Scoring.Test
 
             Assert.AreEqual(res, true);
         }
+        /// <summary>
+        /// Xml文件对比测试
+        /// </summary>
+        [TestMethod]
+        public void TestCompareXmlFile()
+        {
+            string sourceFilePath = "";
+            string compareFilePath = "";
+            ICompareFile compare = new CompareXmlFile(sourceFilePath, compareFilePath, 10);
+            bool res = compare.RunCompare(out StringBuilder compareMessage);
+
+            Assert.AreEqual(res, true);
+        }
     }
 }
