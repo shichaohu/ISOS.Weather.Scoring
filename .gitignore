@@ -3,3 +3,7 @@
 ################################################################################
 
 /ISOS.Weather.Scoring/ISOS.Weather.Scoring.Core/bin/Debug/net5.0
+/ISOS.Weather.Scoring/ISOS.Weather.Scoring.Core/bin
+/ISOS.Weather.Scoring/ISOS.Weather.Scoring.Core/obj
+/ISOS.Weather.Scoring/ISOS.Weather.Scoring.Test/bin
+/ISOS.Weather.Scoring/ISOS.Weather.Scoring.Test/obj
