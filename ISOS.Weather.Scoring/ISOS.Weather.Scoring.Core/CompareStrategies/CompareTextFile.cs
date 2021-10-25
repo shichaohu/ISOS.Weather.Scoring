@@ -31,6 +31,30 @@ namespace ISOS.Weather.Scoring.Core.CompareStrategies
                 return false;
             }
 
+            #region 具体算法
+            /*主要是对比后缀为txt格式、开头为WP的文件
+            ********************************
+            *txt判断标准：1.先进行文件名对比，前29个字符文件名不一致，得分为0.以这个文件为例Z_SURF_I_52150_20200214170000_O_AWS_FTM
+            *             2.文件名相同且有多个的以最后一个为准。
+            
+            *文件内容对比：
+            * 1.每行有n个字符串（以空格分开的），当字符串读取到QC后，不再进行后续行的错误计算。
+            * 2.每个字符串与标准数据值进行对比，发现不一致，判断为1个错误，计数为1
+            * 3.根据多个错误乘以每个错误分值得出总的错误分值
+            * 4.如果这个文件总的错误分值大于给出的总分，该文件得分为0；否则=总分-总的错误分值
+            * *******************************
+            * WP开头的文件判断标准：1.先进行文件名对比，文件名不一致，得分为0.以这个文件为例WP112301
+            *                       2.文件名相同且有多个的以最后一个为准。
+            **文件内容对比：
+            * 1.每行有n个字符串（以空格分开的）。
+            * 2.每个字符串与标准数据值进行对比，发现不一致，判断为1个错误，计数为1
+            * 3.根据多个错误乘以每个错误分值得出总的错误分值
+            * 4.如果这个文件总的错误分值大于给出的总分，该文件得分为0；否则=总分-总的错误分值
+            ****************************************
+         
+             */
+
+            #endregion
             var sourceFileStream = new FileStream(SourceFilePath, FileMode.Open, FileAccess.Read);
             var sourceStreamReader = new StreamReader(sourceFileStream, Encoding.Default);
             var compareFileStream = new FileStream(CompareFilePath, FileMode.Open, FileAccess.Read);
