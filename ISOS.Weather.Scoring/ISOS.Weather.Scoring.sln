@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISOS.Weather.Scoring.Core", "ISOS.Weather.Scoring.Core\ISOS.Weather.Scoring.Core.csproj", "{CC7A686E-2928-4BFE-92B1-8A48ACC31C8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISOS.Weather.Scoring.Core", "ISOS.Weather.Scoring.Core\ISOS.Weather.Scoring.Core.csproj", "{CC7A686E-2928-4BFE-92B1-8A48ACC31C8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISOS.Weather.Scoring.Test", "ISOS.Weather.Scoring.Test\ISOS.Weather.Scoring.Test.csproj", "{78A12FC8-43DA-458B-BA19-C314844BDCD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISOS.Weather.Scoring.Test", "ISOS.Weather.Scoring.Test\ISOS.Weather.Scoring.Test.csproj", "{78A12FC8-43DA-458B-BA19-C314844BDCD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISOS.Weather.Scoring.Core.UI", "ISOS.Weather.Scoring.Core.UI\ISOS.Weather.Scoring.Core.UI.csproj", "{7B5AC4BA-2F58-4558-9031-D14F61B39EFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{78A12FC8-43DA-458B-BA19-C314844BDCD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78A12FC8-43DA-458B-BA19-C314844BDCD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78A12FC8-43DA-458B-BA19-C314844BDCD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B5AC4BA-2F58-4558-9031-D14F61B39EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B5AC4BA-2F58-4558-9031-D14F61B39EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B5AC4BA-2F58-4558-9031-D14F61B39EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B5AC4BA-2F58-4558-9031-D14F61B39EFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

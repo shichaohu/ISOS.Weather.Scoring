@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ISOS.Weather.Scoring.Core.UI/1.0.0": {
+        "dependencies": {
+          "ISOS.Weather.Scoring.Core": "1.0.0"
+        },
+        "runtime": {
+          "ISOS.Weather.Scoring.Core.UI.dll": {}
+        }
+      },
+      "ISOS.Weather.Scoring.Core/1.0.0": {
+        "runtime": {
+          "ISOS.Weather.Scoring.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ISOS.Weather.Scoring.Core.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ISOS.Weather.Scoring.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
