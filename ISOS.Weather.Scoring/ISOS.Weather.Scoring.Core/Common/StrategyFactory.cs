@@ -20,7 +20,9 @@ namespace ISOS.Weather.Scoring.Core.Common
                 case FileEnum.Xml:
                     return new CompareXmlFile();
                 case FileEnum.CSV:
-                    return new CompareXmlFile();
+                    return new CompareCSVFile();
+                case FileEnum.Xls:
+                    return new CompareCSVFile();
                 default:
                     throw new Exception("未找到对应的策略算法！");
             }

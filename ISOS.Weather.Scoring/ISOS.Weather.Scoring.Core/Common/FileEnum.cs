@@ -15,5 +15,6 @@ namespace ISOS.Weather.Scoring.Core.Common
         Text,
         Xml,
         CSV,
+        Xls
     }
 }

@@ -24,7 +24,7 @@ namespace ISOS.Weather.Scoring.Core.UI.Code
                 try
                 {
                     var fileType = compareFilePath.Substring(compareFilePath.LastIndexOf(".") + 1);
-                    var fileTypeEnum = Enum.Parse<FileEnum>(fileType);
+                    var fileTypeEnum = fileType.ToFileEnum();
                     var comp = StrategyFactory.GetCompareStrategy(fileTypeEnum);
                     comp.SourceFilePath = sourceFilePath;
                     comp.CompareFilePath = compareFilePath;
