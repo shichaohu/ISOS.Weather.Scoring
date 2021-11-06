@@ -1,0 +1,47 @@
+﻿[
+  {
+    "CategoryNmae": "",
+    "items": [
+      {
+        "Title": "站台参数",
+        "TotalScore": 100.0,
+        "EachScore": 4.0,
+        "LostScorePerMistake": 2.5,
+        "Descript": "(包括极值、自定项目参数等)"
+      },
+      {
+        "Title": "挂接参数",
+        "TotalScore": 100.0,
+        "EachScore": 4.0,
+        "LostScorePerMistake": 2.5,
+        "Descript": ""
+      },
+      {
+        "Title": "报警参数",
+        "TotalScore": 100.0,
+        "EachScore": 4.0,
+        "LostScorePerMistake": 2.5,
+        "Descript": ""
+      }
+    ]
+  },
+  {
+    "CategoryNmae": "模拟参数",
+    "items": [
+      {
+        "Title": "设备维护",
+        "TotalScore": 150.0,
+        "EachScore": 5.0,
+        "LostScorePerMistake": 2.5,
+        "Descript": ""
+      },
+      {
+        "Title": "数据导出",
+        "TotalScore": 50.0,
+        "EachScore": 5.0,
+        "LostScorePerMistake": 2.5,
+        "Descript": ""
+      }
+    ]
+  }
+]
