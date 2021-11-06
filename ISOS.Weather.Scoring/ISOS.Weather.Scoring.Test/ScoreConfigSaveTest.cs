@@ -11,10 +11,10 @@ namespace ISOS.Weather.Scoring.Test
     public class ScoreConfigSaveTest
     {
         /// <summary>
-        /// Text文件对比测试
+        /// 评分配置读写json文件测试
         /// </summary>
         [TestMethod]
-        public void TestCompareTextFile()
+        public void TestSaveConfigDataToJsonFile()
         {
             var configDataList = new List<ScoreConfig>
             {
